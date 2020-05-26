@@ -29,6 +29,7 @@
 <input type="number" name="price" value="{{old('price')}}" class="form-control @error('price') is-invalid @enderror"></input>
 @error('price') <div class="text-muted">{{$message}} @enderror
 </div>
+
 <div class="form-group">
 <label for="quantity" class="form-control-label">Kuantitas Barang</label>
 <input type="number" name="quantity" value="{{old('quantity')}}" class="form-control @error('price') is-invalid @enderror"></input>
